@@ -13,6 +13,7 @@
 		37CAA3C91B330ED200290991 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CAA3C81B330ED200290991 /* Images.xcassets */; };
 		37CAA3CC1B330ED200290991 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37CAA3CA1B330ED200290991 /* LaunchScreen.xib */; };
 		37CAA3D81B330ED200290991 /* are_you_ready_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CAA3D71B330ED200290991 /* are_you_ready_Tests.swift */; };
+		37CAA3E21B330EF400290991 /* are you ready?..ai in Resources */ = {isa = PBXBuildFile; fileRef = 37CAA3E11B330EF400290991 /* are you ready?..ai */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		37CAA3D11B330ED200290991 /* are you ready?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "are you ready?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CAA3D61B330ED200290991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37CAA3D71B330ED200290991 /* are_you_ready_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = are_you_ready_Tests.swift; sourceTree = "<group>"; };
+		37CAA3E11B330EF400290991 /* are you ready?..ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "are you ready?..ai"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				37CAA3C11B330ED200290991 /* AppDelegate.swift */,
 				37CAA3C31B330ED200290991 /* ViewController.swift */,
 				37CAA3C51B330ED200290991 /* Main.storyboard */,
+				37CAA3E11B330EF400290991 /* are you ready?..ai */,
 				37CAA3C81B330ED200290991 /* Images.xcassets */,
 				37CAA3CA1B330ED200290991 /* LaunchScreen.xib */,
 				37CAA3BF1B330ED200290991 /* Supporting Files */,
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37CAA3C71B330ED200290991 /* Main.storyboard in Resources */,
+				37CAA3E21B330EF400290991 /* are you ready?..ai in Resources */,
 				37CAA3CC1B330ED200290991 /* LaunchScreen.xib in Resources */,
 				37CAA3C91B330ED200290991 /* Images.xcassets in Resources */,
 			);
