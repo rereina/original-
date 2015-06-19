@@ -5,6 +5,30 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="RrF-xk-Gal">
+            <objects>
+                <viewController id="Zbw-UK-q9z" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K5a-Op-hJ5"/>
+                        <viewControllerLayoutGuide type="bottom" id="ers-r4-oi0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EE6-cx-Ind">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="are-you-ready--1　first.png" translatesAutoresizingMaskIntoConstraints="NO" id="sgj-9V-caB">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hW6-lc-Bfb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-178.5" y="296.5"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="are_you_ready_" customModuleProvider="target" sceneMemberID="viewController">
@@ -15,12 +39,107 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="are-you-ready--second.png" translatesAutoresizingMaskIntoConstraints="NO" id="1wH-Hh-tOy">
+                                <rect key="frame" x="-6" y="34" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="oVL-1L-X99" kind="push" id="LES-uw-xQx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="waR-6R-3Ji">
+            <objects>
+                <viewController id="oVL-1L-X99" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iVh-zA-00Q"/>
+                        <viewControllerLayoutGuide type="bottom" id="3Ni-59-qv5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wE9-CP-HNw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="are-you-ready--1-third.png" translatesAutoresizingMaskIntoConstraints="NO" id="Y7x-89-NGr">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5s3-2F-Ec3"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="pnW-1K-7SS" kind="push" id="z5N-2F-2nf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OUO-oc-sre" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="799" y="289"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mMl-Wk-hlC">
+            <objects>
+                <viewController id="pnW-1K-7SS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PGn-jb-TAJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="G7o-FV-VeT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H8N-CQ-Pkk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="are-you-ready--1-fourth.png" translatesAutoresizingMaskIntoConstraints="NO" id="I1M-3s-cyt">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FC3-02-hiG"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="Y5l-8o-wFN" kind="modal" id="FxM-DO-cew"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CeS-wF-oNp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1324" y="252"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BAS-Uj-sTd">
+            <objects>
+                <viewController id="Y5l-8o-wFN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="chV-WG-PB0"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pn7-Hr-ST4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ApE-Gj-PwM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="are-you-ready--1-fifth.png" translatesAutoresizingMaskIntoConstraints="NO" id="uMT-dn-E7X">
+                                <rect key="frame" x="0.0" y="-8" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EJg-hD-U3V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1740.5" y="251.5"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="are-you-ready--1-fifth.png" width="190" height="391"/>
+        <image name="are-you-ready--1-fourth.png" width="190" height="391"/>
+        <image name="are-you-ready--1-third.png" width="190" height="391"/>
+        <image name="are-you-ready--1　first.png" width="190" height="391"/>
+        <image name="are-you-ready--second.png" width="190" height="391"/>
+    </resources>
 </document>

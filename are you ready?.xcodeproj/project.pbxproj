@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		373B1AF51B33AF9C005C0782 /* are-you-ready--top.png in Resources */ = {isa = PBXBuildFile; fileRef = 373B1AF41B33AF9C005C0782 /* are-you-ready--top.png */; };
+		374AD18D1B345ACA0056BA27 /* are-you-ready--second.png in Resources */ = {isa = PBXBuildFile; fileRef = 374AD18C1B345ACA0056BA27 /* are-you-ready--second.png */; };
+		374AD18F1B345BF40056BA27 /* are-you-ready--1-third.png in Resources */ = {isa = PBXBuildFile; fileRef = 374AD18E1B345BF40056BA27 /* are-you-ready--1-third.png */; };
+		374AD1911B345BFF0056BA27 /* are-you-ready--1-fourth.png in Resources */ = {isa = PBXBuildFile; fileRef = 374AD1901B345BFF0056BA27 /* are-you-ready--1-fourth.png */; };
+		374AD1931B345C0E0056BA27 /* are-you-ready--1-fifth.png in Resources */ = {isa = PBXBuildFile; fileRef = 374AD1921B345C0E0056BA27 /* are-you-ready--1-fifth.png */; };
+		374AD1951B345F770056BA27 /* are-you-ready--1　first.png in Resources */ = {isa = PBXBuildFile; fileRef = 374AD1941B345F770056BA27 /* are-you-ready--1　first.png */; };
 		37CAA3C21B330ED200290991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CAA3C11B330ED200290991 /* AppDelegate.swift */; };
 		37CAA3C41B330ED200290991 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CAA3C31B330ED200290991 /* ViewController.swift */; };
 		37CAA3C71B330ED200290991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37CAA3C51B330ED200290991 /* Main.storyboard */; };
@@ -27,6 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		373B1AF41B33AF9C005C0782 /* are-you-ready--top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "are-you-ready--top.png"; sourceTree = "<group>"; };
+		374AD18C1B345ACA0056BA27 /* are-you-ready--second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "are-you-ready--second.png"; sourceTree = "<group>"; };
+		374AD18E1B345BF40056BA27 /* are-you-ready--1-third.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "are-you-ready--1-third.png"; sourceTree = "<group>"; };
+		374AD1901B345BFF0056BA27 /* are-you-ready--1-fourth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "are-you-ready--1-fourth.png"; sourceTree = "<group>"; };
+		374AD1921B345C0E0056BA27 /* are-you-ready--1-fifth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "are-you-ready--1-fifth.png"; sourceTree = "<group>"; };
+		374AD1941B345F770056BA27 /* are-you-ready--1　first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "are-you-ready--1　first.png"; sourceTree = "<group>"; };
 		37CAA3BC1B330ED200290991 /* are you ready?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "are you ready?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CAA3C01B330ED200290991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37CAA3C11B330ED200290991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,7 +94,13 @@
 				37CAA3C11B330ED200290991 /* AppDelegate.swift */,
 				37CAA3C31B330ED200290991 /* ViewController.swift */,
 				37CAA3C51B330ED200290991 /* Main.storyboard */,
+				374AD18E1B345BF40056BA27 /* are-you-ready--1-third.png */,
+				374AD1921B345C0E0056BA27 /* are-you-ready--1-fifth.png */,
+				374AD1901B345BFF0056BA27 /* are-you-ready--1-fourth.png */,
+				373B1AF41B33AF9C005C0782 /* are-you-ready--top.png */,
 				37CAA3E31B33153000290991 /* are you ready? 1.ai */,
+				374AD1941B345F770056BA27 /* are-you-ready--1　first.png */,
+				374AD18C1B345ACA0056BA27 /* are-you-ready--second.png */,
 				37CAA3C81B330ED200290991 /* Images.xcassets */,
 				37CAA3CA1B330ED200290991 /* LaunchScreen.xib */,
 				37CAA3BF1B330ED200290991 /* Supporting Files */,
@@ -195,9 +213,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				374AD1931B345C0E0056BA27 /* are-you-ready--1-fifth.png in Resources */,
 				37CAA3C71B330ED200290991 /* Main.storyboard in Resources */,
+				374AD18F1B345BF40056BA27 /* are-you-ready--1-third.png in Resources */,
+				374AD1911B345BFF0056BA27 /* are-you-ready--1-fourth.png in Resources */,
+				374AD1951B345F770056BA27 /* are-you-ready--1　first.png in Resources */,
+				373B1AF51B33AF9C005C0782 /* are-you-ready--top.png in Resources */,
 				37CAA3E41B33153000290991 /* are you ready? 1.ai in Resources */,
 				37CAA3CC1B330ED200290991 /* LaunchScreen.xib in Resources */,
+				374AD18D1B345ACA0056BA27 /* are-you-ready--second.png in Resources */,
 				37CAA3C91B330ED200290991 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
