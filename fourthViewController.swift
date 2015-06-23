@@ -8,7 +8,7 @@
 
 import UIKit
 
-class fourth: UIViewController {
+class fourthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

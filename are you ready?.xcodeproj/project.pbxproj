@@ -21,8 +21,10 @@
 		37CAA3D81B330ED200290991 /* are_you_ready_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CAA3D71B330ED200290991 /* are_you_ready_Tests.swift */; };
 		37CAA3E41B33153000290991 /* are you ready? 1.ai in Resources */ = {isa = PBXBuildFile; fileRef = 37CAA3E31B33153000290991 /* are you ready? 1.ai */; };
 		37DFDA0E1B3701190051D3A4 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DFDA0D1B3701190051D3A4 /* secondViewController.swift */; };
-		37DFDA101B3701420051D3A4 /* third.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DFDA0F1B3701420051D3A4 /* third.swift */; };
-		37DFDA121B37015D0051D3A4 /* fourth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DFDA111B37015D0051D3A4 /* fourth.swift */; };
+		37DFDA101B3701420051D3A4 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DFDA0F1B3701420051D3A4 /* thirdViewController.swift */; };
+		37DFDA121B37015D0051D3A4 /* fourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DFDA111B37015D0051D3A4 /* fourthViewController.swift */; };
+		37ED48E41B379D6F00B42E4D /* are-you-ready--5.png in Resources */ = {isa = PBXBuildFile; fileRef = 37ED48E31B379D6F00B42E4D /* are-you-ready--5.png */; };
+		37ED48E61B379E6600B42E4D /* fifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ED48E51B379E6600B42E4D /* fifthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +56,10 @@
 		37CAA3D71B330ED200290991 /* are_you_ready_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = are_you_ready_Tests.swift; sourceTree = "<group>"; };
 		37CAA3E31B33153000290991 /* are you ready? 1.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "are you ready? 1.ai"; sourceTree = "<group>"; };
 		37DFDA0D1B3701190051D3A4 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = secondViewController.swift; path = ../secondViewController.swift; sourceTree = "<group>"; };
-		37DFDA0F1B3701420051D3A4 /* third.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = third.swift; path = ../third.swift; sourceTree = "<group>"; };
-		37DFDA111B37015D0051D3A4 /* fourth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = fourth.swift; path = ../fourth.swift; sourceTree = "<group>"; };
+		37DFDA0F1B3701420051D3A4 /* thirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = thirdViewController.swift; path = ../thirdViewController.swift; sourceTree = "<group>"; };
+		37DFDA111B37015D0051D3A4 /* fourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = fourthViewController.swift; path = ../fourthViewController.swift; sourceTree = "<group>"; };
+		37ED48E31B379D6F00B42E4D /* are-you-ready--5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "are-you-ready--5.png"; sourceTree = "<group>"; };
+		37ED48E51B379E6600B42E4D /* fifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fifthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				37CAA3C11B330ED200290991 /* AppDelegate.swift */,
 				37CAA3C31B330ED200290991 /* ViewController.swift */,
 				37CAA3C51B330ED200290991 /* Main.storyboard */,
+				37ED48E51B379E6600B42E4D /* fifthViewController.swift */,
 				37DFDA0D1B3701190051D3A4 /* secondViewController.swift */,
-				37DFDA0F1B3701420051D3A4 /* third.swift */,
-				37DFDA111B37015D0051D3A4 /* fourth.swift */,
+				37DFDA0F1B3701420051D3A4 /* thirdViewController.swift */,
+				37ED48E31B379D6F00B42E4D /* are-you-ready--5.png */,
+				37DFDA111B37015D0051D3A4 /* fourthViewController.swift */,
 				374AD18E1B345BF40056BA27 /* are-you-ready--1-third.png */,
 				374AD1921B345C0E0056BA27 /* are-you-ready--1-fifth.png */,
 				374AD1901B345BFF0056BA27 /* are-you-ready--1-fourth.png */,
@@ -229,6 +235,7 @@
 				374AD1951B345F770056BA27 /* are-you-ready--1　first.png in Resources */,
 				373B1AF51B33AF9C005C0782 /* are-you-ready--top.png in Resources */,
 				37CAA3E41B33153000290991 /* are you ready? 1.ai in Resources */,
+				37ED48E41B379D6F00B42E4D /* are-you-ready--5.png in Resources */,
 				37CAA3CC1B330ED200290991 /* LaunchScreen.xib in Resources */,
 				374AD18D1B345ACA0056BA27 /* are-you-ready--second.png in Resources */,
 				37CAA3C91B330ED200290991 /* Images.xcassets in Resources */,
@@ -250,10 +257,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				37CAA3C41B330ED200290991 /* ViewController.swift in Sources */,
+				37ED48E61B379E6600B42E4D /* fifthViewController.swift in Sources */,
 				37CAA3C21B330ED200290991 /* AppDelegate.swift in Sources */,
 				37DFDA0E1B3701190051D3A4 /* secondViewController.swift in Sources */,
-				37DFDA121B37015D0051D3A4 /* fourth.swift in Sources */,
-				37DFDA101B3701420051D3A4 /* third.swift in Sources */,
+				37DFDA121B37015D0051D3A4 /* fourthViewController.swift in Sources */,
+				37DFDA101B3701420051D3A4 /* thirdViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

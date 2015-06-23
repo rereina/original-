@@ -18,9 +18,20 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    @IBAction button
-
-
 }
-
+    @IBAction func click(sender: AnyObject) {
+        let _view2 = self.storyboard!.instantiateViewControllerWithIdentifier("view2")as! secondViewController
+        self.navigationController!.pushViewController(_view2,animated: true)
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }

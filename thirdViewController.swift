@@ -1,5 +1,5 @@
 //
-//  secondViewController.swift
+//  third.swift
 //  are you ready?
 //
 //  Created by 佐藤　玲奈 on 2015/06/21.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class secondViewController: UIViewController {
+class thirdViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,11 +31,5 @@ class secondViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    /*@IBAction func new(sender: AnyObject) {
-        let _view3 = self.storyboard!.instantiateViewControllerWithIdentifier("view3")as! thirdViewController
-        self.navigationController!.pushViewController( _view3.animated : true )
-    }*/
-    
-    //[navigationController pushViewController:destinationViewController animated:YES]
 
 }

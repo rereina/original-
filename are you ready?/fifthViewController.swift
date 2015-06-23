@@ -1,14 +1,14 @@
 //
-//  third.swift
+//  five ViewController.swift
 //  are you ready?
 //
-//  Created by 佐藤　玲奈 on 2015/06/21.
+//  Created by 佐藤　玲奈 on 2015/06/22.
 //  Copyright (c) 2015年 佐藤　玲奈. All rights reserved.
 //
 
 import UIKit
 
-class third: UIViewController {
+class fifthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
